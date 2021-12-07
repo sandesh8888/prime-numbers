@@ -6,8 +6,7 @@ LONG_DESCRIPTION = 'Enter the number and check if the number is prime or not'
 
 # Setting up
 setup(
-       # the name must match the folder name 'verysimplemodule'
-        name="prime_numbers", 
+        name="checkprimenumbers", 
         version=VERSION,
         author="Sandesh Dhakal",
         author_email="dhakalsandesh5@gmail.com",
@@ -16,7 +15,7 @@ setup(
         long_description=LONG_DESCRIPTION,
         packages=find_packages(),
         install_requires=[], 
-        
+        license='BSD 2-clause',
         keywords=['python', 'first package'],
         classifiers= [
             "Intended Audience :: Education",
